@@ -25,7 +25,7 @@ class ca_cert::params {
       $distrusted_cert_dir = '/etc/pki/ca-trust/source/blacklist'
       $update_cmd          = 'update-ca-trust extract'
       $cert_dir_group      = 'root'
-      $cert_dir_mode       = '0555'
+      $cert_dir_mode       = '0755'
       $ca_file_mode        = '0444'
       $ca_file_extension   = 'crt'
       $package_name        = 'ca-certificates'
